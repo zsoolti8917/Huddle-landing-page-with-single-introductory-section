@@ -7,27 +7,38 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/faf7415ea6.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-  Build The Community Your Fans Will Love
+  <main>
+    <div class="container">
+      <picture class="header__img-parent">
+        <img src="images/logo.svg" alt="logo" class="header_img">
+      </picture>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+      <div class="card">
+        <div class="card__img">
+          <picture>
+            <img src="images/illustration-mockups.svg" alt="illustration-mockups">
+          </picture>
+        </div>
 
-  Register
+        <div class="card__content">
+          <h1 class="card__content-title">Build The Community Your Fans Will Love</h1>
+          <p class="card__content-text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+            Create connections with your users as you engage in genuine discussion.</p>
+          <button class="button">Register</button>
+        </div>
+      </div>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+      <div class="logos">
+        <span class="fa-brands fa-facebook logo"></span>
+        <span class="fa-brands fa-twitter logo"></span>
+        <span class="fa-brands fa-instagram logo"></span>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
